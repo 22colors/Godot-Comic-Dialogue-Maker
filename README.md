@@ -19,8 +19,8 @@ How to use it
 
 You can exchange or add any graphics in the IMAGES folder:
 
-- characters (use PNG files only!)
-- backgrounds (use JPG files only!)
+- characters (use PNG files only: 500 x 500 pixel)
+- backgrounds (use JPG files only: 962 x 539 pixel)
 - button in three stages
 - arrow for the button
 - progress bar
