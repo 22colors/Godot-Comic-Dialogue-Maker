@@ -47,10 +47,12 @@ In the text file, there is one section with a two digit number. This is what it 
 
 Notes
 ------------
-The project is set up for 320 x 180. Please beware, if you decide to change this, or if you change the font (or size), all scaling and position values need to be changed in the script.
+* "Speed" value in the text file: You can change this value. It is used as a pause in between the appearance of the speech bubbles, text and buttons to continue or go back.
 
-If you get an error, it is very likely that you misplaced or missed a quotation or comma in the text file. The script doesn´t check for correct writing, so be careful when you create your text.
+* Resolution: The project is set up for 320 x 180. Please beware, if you decide to change this, or if you change the font (or size), all scaling and position values need to be changed in the script.
 
-You can use the script and the graphics in any way you want, also commercially, without attribution. 
+* Errors: If you get an error, it is very likely that you misplaced or missed a quotation or comma in the text file. The script doesn´t check for correct writing, so be careful when you create your text.
+
+* License: You can use the script and the graphics in any way you want, also commercially, without attribution. 
 Of course, I would be happy to see if the script was useful for you and I am curious in what projects you are implementing it. 
 
