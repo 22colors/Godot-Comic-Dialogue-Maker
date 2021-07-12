@@ -24,7 +24,7 @@ You can exchange or add any graphics in the IMAGES folder:
 - bubbles (PNG)
 
 
-Bubbles
+Speech Bubbles
 --------------
 
 The standard bubble is bubble-0.png. It is made for character 1 (left side), and the script automatically flips it for character 2 (right side).	
