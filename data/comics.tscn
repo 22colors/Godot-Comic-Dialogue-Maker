@@ -1,0 +1,191 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://images/progress.jpg" type="Texture" id=1]
+[ext_resource path="res://images/erwin-r.png" type="Texture" id=2]
+[ext_resource path="res://images/garden1.jpg" type="Texture" id=3]
+[ext_resource path="res://data/Atma-Medium.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://data/comics.gd" type="Script" id=5]
+[ext_resource path="res://images/progress-under.jpg" type="Texture" id=6]
+[ext_resource path="res://images/monika-l.png" type="Texture" id=7]
+[ext_resource path="res://images/but-sm-0.png" type="Texture" id=8]
+[ext_resource path="res://images/bubble-b.png" type="Texture" id=9]
+[ext_resource path="res://images/but-sm-1.png" type="Texture" id=10]
+[ext_resource path="res://images/but-sm-0h.png" type="Texture" id=11]
+[ext_resource path="res://images/arrow.png" type="Texture" id=12]
+[ext_resource path="res://images/bubble-0.png" type="Texture" id=13]
+
+[sub_resource type="DynamicFont" id=1]
+size = 10
+extra_spacing_bottom = -9
+font_data = ExtResource( 4 )
+
+[node name="ComicMaker" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="Background" type="TextureRect" parent="."]
+margin_right = 320.0
+margin_bottom = 180.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="Background"]
+
+[node name="Progress" type="TextureProgress" parent="."]
+margin_left = 316.174
+margin_top = 0.0873988
+margin_right = 330.174
+margin_bottom = 539.087
+rect_scale = Vector2( 0.33, 0.335 )
+texture_under = ExtResource( 6 )
+texture_progress = ExtResource( 1 )
+fill_mode = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Char1" type="Sprite" parent="."]
+position = Vector2( 88.9094, 130.42 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 2 )
+
+[node name="Char2" type="Sprite" parent="."]
+position = Vector2( 232.096, 130.735 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 7 )
+
+[node name="Bubble1" type="Sprite" parent="."]
+position = Vector2( 82, 43 )
+scale = Vector2( 0.33, 0.24 )
+texture = ExtResource( 13 )
+
+[node name="Tween" type="Tween" parent="Bubble1"]
+
+[node name="Bubble1b" type="Sprite" parent="."]
+position = Vector2( 154.478, 43 )
+scale = Vector2( 0.3, 0.24 )
+texture = ExtResource( 9 )
+
+[node name="Tween" type="Tween" parent="Bubble1b"]
+
+[node name="Bubble2" type="Sprite" parent="."]
+position = Vector2( 231, 43 )
+scale = Vector2( 0.33, 0.24 )
+texture = ExtResource( 13 )
+flip_h = true
+
+[node name="Tween" type="Tween" parent="Bubble2"]
+
+[node name="Bubble2b" type="Sprite" parent="."]
+position = Vector2( 154.478, 43 )
+scale = Vector2( 0.3, 0.24 )
+texture = ExtResource( 9 )
+flip_h = true
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Tween" type="Tween" parent="Bubble2b"]
+
+[node name="Label1" type="Label" parent="."]
+margin_left = 16.0
+margin_top = 8.0
+margin_right = 142.0
+margin_bottom = 45.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.247059, 0.0392157, 0.47451, 1 )
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label1b" type="Label" parent="."]
+margin_left = 13.0
+margin_top = 8.0
+margin_right = 295.0
+margin_bottom = 59.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.247059, 0.0392157, 0.47451, 1 )
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 171.075
+margin_top = 8.0
+margin_right = 297.075
+margin_bottom = 45.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.247059, 0.0392157, 0.47451, 1 )
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2b" type="Label" parent="."]
+margin_left = 13.0
+margin_top = 8.0
+margin_right = 295.0
+margin_bottom = 59.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.247059, 0.0392157, 0.47451, 1 )
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="GoRight" type="TextureButton" parent="."]
+margin_left = 279.041
+margin_top = 145.632
+margin_right = 371.041
+margin_bottom = 233.632
+rect_scale = Vector2( 0.38, 0.3 )
+action_mode = 0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 10 )
+texture_hover = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Right" type="Sprite" parent="GoRight"]
+position = Vector2( 44.8797, 39.6403 )
+scale = Vector2( 0.8, 1 )
+texture = ExtResource( 12 )
+
+[node name="GoLeft" type="TextureButton" parent="."]
+margin_left = 5.60477
+margin_top = 145.632
+margin_right = 97.605
+margin_bottom = 233.632
+rect_scale = Vector2( 0.38, 0.3 )
+action_mode = 0
+texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 10 )
+texture_hover = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": ""
+}
+
+[node name="Left" type="Sprite" parent="GoLeft"]
+position = Vector2( 43.3149, 39.6403 )
+scale = Vector2( 0.8, 1 )
+texture = ExtResource( 12 )
+flip_h = true
+
+[connection signal="pressed" from="GoRight" to="." method="_on_GoRight_pressed"]
+[connection signal="pressed" from="GoLeft" to="." method="_on_GoLeft_pressed"]
