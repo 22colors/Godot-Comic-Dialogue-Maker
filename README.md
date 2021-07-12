@@ -11,7 +11,8 @@ The smaller speech bubbles are scaled automatically according to the amount of t
 The big bubble (for a longer text) stays in the same size.
 
 
-+++ How to use it +++
+How to use it
+------------------
 
 You can exchange or add any graphics in the IMAGES folder:
 
