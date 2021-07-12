@@ -38,21 +38,21 @@ And those numbers...?
 ----------------------------
 In the text file, there is one section with a two digit number. This is what it does:
 
-12 = character 1 speaks first, then character 2
-21 = character 2 speaks first, then character 1
-10 = only character 1 speaks 
-20 = only character 2 speaks 
-00 = no one speaks
+* 12 = character 1 speaks first, then character 2
+* 21 = character 2 speaks first, then character 1
+* 10 = only character 1 speaks 
+* 20 = only character 2 speaks 
+* 00 = no one speaks
 
 
 Notes
 ------------
-* "Speed" value in the text file: You can change this value. It is used as a pause in between the appearance of the speech bubbles, text and buttons to continue or go back.
+- "Speed" value in the text file: You can change this value. It is used as a pause in between the appearance of the speech bubbles, text and buttons to continue or go back.
 
-* Resolution: The project is set up for 320 x 180. Please beware, if you decide to change this, or if you change the font (or size), all scaling and position values need to be changed in the script.
+- Resolution: The project is set up for 320 x 180. Please beware, if you decide to change this, or if you change the font (or size), all scaling and position values need to be changed in the script.
 
-* Errors: If you get an error, it is very likely that you misplaced or missed a quotation or comma in the text file. The script doesn´t check for correct writing, so be careful when you create your text.
+- Errors: If you get an error, it is very likely that you misplaced or missed a quotation or comma in the text file. The script doesn´t check for correct writing, so be careful when you create your text.
 
-* License: You can use the script and the graphics in any way you want, also commercially, without attribution. 
+- License: You can use the script and the graphics in any way you want, also commercially, without attribution. 
 Of course, I would be happy to see if the script was useful for you and I am curious in what projects you are implementing it. 
 
