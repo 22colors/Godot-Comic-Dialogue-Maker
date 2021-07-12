@@ -10,6 +10,8 @@ Godot looks for a textfile with such content:
 The smaller speech bubbles are scaled automatically according to the amount of text. 
 The big bubble (for a longer text) stays in the same size.
 
+See a working example here: http://www.22colors.de/en/comic-dialogue-maker-for-godot/
+
 
 How to use it
 ------------------
