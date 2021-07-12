@@ -1,4 +1,5 @@
-# Godot-Comic-Dialogue-Maker
+# Godot-Comic-Dialogue-Maker 1.0
+
 How to play a comic dialogue in your Godot project: 1. Use a text file as your dialogue script, 2. add your own graphics.
 
 In order to tell some stories, I needed a simple way to create comics within my Godot game. 
@@ -49,7 +50,13 @@ In the text file, there is one section with a two digit number. This is what it 
 
 Notes
 ------------
+- The text file to edit is: comic1-en.txt
+ 
 - "Speed" value in the text file: You can change this value. It is used as a pause in between the appearance of the speech bubbles, text and buttons to continue or go back.
+
+-  If you want to use quotation marks in your comic dialogue text, you can mask it like this: \"
+
+-  Start on a new line with: \n
 
 - Resolution: The project is set up for 320 x 180. Please beware, if you decide to change this, or if you change the font (or size), all scaling and position values need to be changed in the script.
 
