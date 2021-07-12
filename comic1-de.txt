@@ -1,0 +1,15 @@
+{
+"speed" : ".5",
+
+"comic" : [
+
+["garden1", "erwin-r", "monika-l", "12", "Hallo Monika! Ist das nicht cool, dass wir uns jetzt hier in diesem Comic-Baukasten unterhalten können?", "Hallo Erwin, kann damit jetzt praktisch jeder seine eigenen Web-Comics bauen oder wie?"],
+["garden1", "erwin-r", "monika-f", "12", "Genau. Das geht total einfach.", "Cool! Ich wollte schon immer mein eigenes Comic bauen, aber ich kann leider nicht so gut zeichnen..."],
+["garden1", "erwin-f", "monika-l", "12", "Wir sind ja auch nur Strichfiguren. Das reicht doch für´s erste.", "Ja, klar! Und wie geht das mit dem Hintergrundbild?"],
+["greenscreen", "erwin-r", "monika-box", "12", "Schau mal, der ist beliebig austauschbar, wie bei einem Greenscreen im TV-Studio.", "Aha, und wir sind dann die PNG-Grafiken davor, ich verstehe."],
+["garden1", "erwin-f", "monika-l", "10", "%bUnd dann schreibst du deine Texte einfach in eine Textdatei:\n\n\"garden1\", \"erwin-f\", \"monika-l\", \"10\", \"Und hier mein Text\"", ""],
+["garden1", "erwin-r", "monika-f", "21", "Mit einer kostenlosen Open Source Software. Die läuft sogar im Browser.", "Und wie wir das dann gesteuert?"],
+["garden1", "erwin-f", "monika-l", "12", "Ich zeige dir gerne wie es geht.", "Cool! Dann kann ich jetzt richtig kreativ werden mit meinen eigenen Comics..."],
+
+]
+}

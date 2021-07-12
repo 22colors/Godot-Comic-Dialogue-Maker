@@ -1,0 +1,15 @@
+{
+"speed" : ".5",
+
+"comic" : [
+
+["garden1", "erwin-r", "monika-l", "12", "Hello Monika! Isn't it cool that we can talk here in this comic construction kit now?", "Hello Erwin, can practically anyone build their own web comics with it now or what?"],
+["garden1", "erwin-r", "monika-f", "12", "Exactly. It's totally easy.", "Cool! I've always wanted to make my own comic, but unfortunately I can't draw that well...."],
+["garden1", "erwin-f", "monika-l", "12", "After all, we are only stick figures. That's enough for now.", "Yes, of course! And how does it work with the background image?"],
+["greenscreen", "erwin-r", "monika-box", "12", "Look, it can be replaced at will, like a green screen in a TV studio.", "Aha, and we are then the PNG graphics in front, I see."],
+["garden1", "erwin-f", "monika-l", "10", "%bAnd then you just write your texts in a text file:\n\n\"garden1\", \"erwin-f\", \"monika-l\", \"10\", \"And here my text\"", ""],
+["garden1", "erwin-r", "monika-f", "21", "With free open source software. It even runs in the browser.", "And how do we control that?"],
+["garden1", "erwin-f", "monika-l", "12", "I'll be happy to show you how it's done.", "Cool! Then I can get really creative with my own comics..."],
+
+]
+}
